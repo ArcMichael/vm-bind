@@ -4,6 +4,8 @@ services:
   bind:
     restart: always
     image: sameersbn/bind:9.16.1-20200524
+    environment:
+    - "ROOT_PASSWORD:root"
     ports:
     - "53:53/udp"
     - "53:53/tcp"
