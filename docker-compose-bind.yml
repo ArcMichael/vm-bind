@@ -12,4 +12,4 @@ services:
     - "53:53/tcp"
     - "10000:10000/tcp"
     volumes:
-    - /srv/docker/bind:/data
+    - /home/docker/bind/data:/data
